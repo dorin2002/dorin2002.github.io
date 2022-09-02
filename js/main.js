@@ -57,7 +57,7 @@ $(document).ready(function(){
 		event.stopPropagation();
 	});
 
-	$('.navbar .navbar-toggler, .navbar .nav-link').on('click', function(event){
+	$('.navbar .navbar-toggler, .navbar .close, header, .navbar .nav-link').on('click', function(event){
 		setTimeout(function(){ 
 			if ( $('.navbar .dropdown-menu').hasClass("show")) {
 				$('body').addClass("noScroll");
