@@ -26,6 +26,11 @@ $(document).ready(function(){
 			$('.navbar .navbar-collapse .dropdown .dropdown-menu').removeClass("show");
 	});
 
+	$('.navbar .navbar-collapse .dropdown .dropdown-menu .close').on('click', function(event){
+		$('.navbar .navbar-collapse .dropdown .nav-link').removeClass("show");
+			$('.navbar .navbar-collapse .dropdown .dropdown-menu').removeClass("show");
+	});
+
 	$('.owl-carousel').owlCarousel({
 		margin:10,
 		nav:true,

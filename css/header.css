@@ -40,7 +40,7 @@ header .navbar .navbar-collapse {
 @media only screen and (max-width: 769px) {
   header .navbar .navbar-collapse {
     position: absolute;
-    bottom: -104%;
+    bottom: -80%;
     background-color: #fff;
     width: 102vw;
     left: 0px;
